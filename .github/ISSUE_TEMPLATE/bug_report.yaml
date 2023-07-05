@@ -35,8 +35,8 @@ body:
         - android
     validations:
       required: true
-  - type: file
-    id: screenshot
+  - type: input
+    id: screenshots
     attributes:
       label: Screenshots
       description: If applicable, add screenshots to help explain your problem.
