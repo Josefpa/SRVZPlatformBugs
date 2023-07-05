@@ -36,7 +36,7 @@ body:
         - Web
     validations:
       required: true
-  - type: file
+  - type: markdown
     id: screenshot
     attributes:
       label: Screenshots
