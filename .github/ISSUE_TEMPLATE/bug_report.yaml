@@ -36,10 +36,10 @@ body:
         - Web
     validations:
       required: true
-  - type: markdown
+  - type: input
     id: screenshot
     attributes:
       label: Screenshots
       description: If applicable, add screenshots to help explain your problem.
-    validations:
-      required: false
+      file: true
+      multiple: true
