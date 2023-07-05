@@ -36,8 +36,9 @@ body:
         - Web
     validations:
       required: true
-  - type: markdown
+  - type: textarea
+    id: screenshots
     attributes:
-      value: |
-        Screenshots:
-        Attachments can be provided upon request.
+      label: Screenshots
+      description: Paste screenshots here
+      placeholder: Paste screenshots here
