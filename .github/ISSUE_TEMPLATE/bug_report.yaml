@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: input
+  - type: textarea
     id: describe-bug
     attributes:
       label: Describe the bug
@@ -17,7 +17,7 @@ body:
       placeholder: Bug description...
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: reproduce-steps
     attributes:
       label: To Reproduce
@@ -31,12 +31,13 @@ body:
       label: Select platform
       description: Choose the platform on which the bug occurs.
       options:
-        - ios
-        - android
+        - iOS
+        - Android
+        - Web
     validations:
       required: true
-  - type: input
-    id: screenshots
+  - type: file
+    id: screenshot
     attributes:
       label: Screenshots
       description: If applicable, add screenshots to help explain your problem.
