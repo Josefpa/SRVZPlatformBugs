@@ -36,10 +36,8 @@ body:
         - Web
     validations:
       required: true
-  - type: input
-    id: screenshot
+  - type: markdown
     attributes:
-      label: Screenshots
-      description: If applicable, add screenshots to help explain your problem.
-      file: true
-      multiple: true
+      value: |
+        Screenshots:
+        Attachments can be provided upon request.
